@@ -89,7 +89,7 @@
  *
  *    "defaultPadText" : "${DEFAULT_PAD_TEXT}Line 1\nLine 2"
  */
- {
+{
   /*
    * Name your instance!
    */
@@ -206,19 +206,6 @@
    *
    * See: https://github.com/ether/etherpad-lite/wiki/How-to-use-Etherpad-Lite-with-MySQL
    */
-
-  /*
-  "dbType" : "mysql",
-  "dbSettings" : {
-    "user":     "etherpaduser",
-    "host":     "localhost",
-    "port":     3306,
-    "password": "PASSWORD",
-    "database": "etherpad_lite_db",
-    "charset":  "utf8mb4"
-  },
-  */
-
   "dbType" : "postgres",
   "dbSettings" : {
       "user"    : "etherpad",
