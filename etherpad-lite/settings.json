@@ -206,6 +206,7 @@
    *
    * See: https://github.com/ether/etherpad-lite/wiki/How-to-use-Etherpad-Lite-with-MySQL
    */
+
   "dbType" : "postgres",
   "dbSettings" : {
       "user"    : "etherpad",
